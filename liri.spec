@@ -36,7 +36,7 @@ QtWebEngine based browser following the Material Design guidelines
 %else
 %setup -q -n %{name}-browser-%{version}/
 %endif
-%apply_patches
+%autopatch -p1
 sed -i -e 's,/opt/$${TARGET}/bin,%{_bindir},g' deployment.pri
 
 %build
