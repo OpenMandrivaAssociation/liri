@@ -15,7 +15,7 @@ Source0:	https://github.com/liri-project/liri-browser/archive/v%{version}.tar.gz
 %endif
 License:	GPLv3+ and BSD and LGPLv2.1 and GPLv2+ and MPL
 Group:		Networking/WWW
-Url:		http://liriproject.me/browser
+Url:		https://liriproject.me/browser
 BuildRequires:	qt5-devel
 BuildRequires:	qt5-linguist-tools
 BuildRequires:	pkgconfig(Qt5WebEngine)
